@@ -4,20 +4,22 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vindium — Dental Lead Management Platform</title>
-    <meta name="og:site_name" content="vindium.com" />
+    <title>Dreamweaver Labs - Lead Capture Platform for Lawyers</title>
+    <meta name="og:site_name" content="dreamweaver-labs.com" />
   </head>
   <body>
     <div id="root"></div>
     <!-- Netlify form honeypot template for build-time form detection -->
-    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <form name="demoRequest" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="firstName" />
       <input type="text" name="lastName" />
-      <input type="text" name="company" />
+      <input type="text" name="firmName" />
       <input type="email" name="email" />
       <input type="tel" name="phone" />
+      <input type="text" name="practiceArea" />
+      <input type="text" name="leadVolume" />
       <textarea name="message"></textarea>
-      <input type="checkbox" name="smsConsent" />
+      <input type="text" name="smsConsent" />
     </form>
     <script type="module" src="/src/main.jsx"></script>
   </body>
